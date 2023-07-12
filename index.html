@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Bradley Turner </title>
-    <meta name="description" content="Hey, I'm Brad and I'm an Industrial Designer in Sydney Australia. I currently works as a packaging designer and run my own design business.">
-    <meta name="keywords" content="ALGEBUCKINA, DESIGN, DESIGNER, ALGBUCKINA DESIGN">
-    <meta name="author" content="algebuckina">
+    <meta name="description"
+        content="Hey, I'm Brad and I'm an Industrial Designer in Sydney Australia. I currently works as a packaging designer and run my own design business.">
+    <meta name="keywords"
+        content="BRADLEY, TURNER, BRADLEY TURNER, PORTFOLIO, INDUSTRIAL DESIGNER, ALGEBUCKINA, DESIGN, DESIGNER, ALGBUCKINA DESIGN">
+    <meta name="author" content="Bradley Turner of Algebuckina Design">
     <meta property="og:image" content=""> <!--need to make a logo for myself based on algebuckina design-->
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/ico" href="./favicon.ico">
@@ -19,10 +21,11 @@
 
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="./index.html">Home</a>
-        <a href="./past-projects.html"  onclick="closeNav()">Portfolio</a>
-        <a href="./contact-me" onclick="closeNav()">Contact Me</a>
-        <a href="./links" onclick="closeNav()">Links</a>
+        <a href="index.html#home" onclick="closeNav()">Home</a>
+        <a href="index.html#abouyMe" onclick="closeNav()">About Me</a>
+        <a href="index.html#portfolio" onclick="closeNav()">Portfolio</a>
+        <a href="index.html#contactMe" onclick="closeNav()">Contact Me</a>
+        <a href="./links">Links</a>
         <a href="https://algebuckina-design.au/" onclick="closeNav()" target="_blank">My Company</a>
 
     </div>
@@ -37,17 +40,20 @@
         </nav>
 
         <main>
-            <img src="images/title.jpg" alt="title image" width="100%" height="auto">
+            <img src="images/title.jpg" alt="title image" width="100%" height="auto" id="home">
 
-            <h2>About Me</h2>
+            <h2 id="aboutMe">About Me</h2>
             <p>some stuff about me</p>
 
             <hr>
             <p>A snapshot of my experience</p>
             <hr>
-            <h2>Portfolio</h2>
+            <h2 id="portfolio">Portfolio</h2>
 
-            <p>an array of images that, when clicked on, back out page and have a short description on them, then linking to more detail</p>
+            <p>an array of images that, when clicked on, back out page and have a short description on them, then
+                linking to more detail</p>
+            <hr>
+            <h2 id="contactMe">Contact Me</h2>
         </main>
 
         <footer>
