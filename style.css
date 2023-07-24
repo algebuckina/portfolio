@@ -150,8 +150,8 @@ button {
 
 /* Create four equal columns that sits next to each other */
 .column {
-    flex: 20%;
-    max-width: 20%;
+    flex: 24%;
+    max-width: 24%;
     padding: 0 4px;
 }
 
@@ -164,8 +164,8 @@ button {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column {
-        flex: 45%;
-        max-width: 45%;
+        flex: 49%;
+        max-width: 49%;
     }
 }
 
