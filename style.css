@@ -156,7 +156,7 @@ button {
 /* Create four equal columns that sits next to each other */
 .column {
     flex: 25%;
-    max-width: 24.9%;
+    max-width: 24%;
     padding: 0 4px;
 }
 
