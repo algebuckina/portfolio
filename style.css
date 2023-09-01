@@ -183,11 +183,18 @@ button {
 }
 
 /* a copy paste of my links page from my old website*/
+@media screen and (max-width:1060px) {
+    .link-page {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+}
+
 .link-page {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 900px;
     text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .link-container:hover {
