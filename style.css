@@ -185,9 +185,9 @@ button {
 /* a copy paste of my links page from my old website*/
 .link-page {
     text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    /*this needs a rework so it works on desktops and on mobile, but that is a later me problem*/
+    padding-left: 15%;
+    padding-right: 15%;
+    /*this needs a rework so it works on desktops and on mobile, but that is a later me problem, it needs to be like 40% on desktop, but when I do my style pass for different resolutions I'll fix that*/
 }
 
 .link-container:hover {
