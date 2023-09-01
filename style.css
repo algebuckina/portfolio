@@ -183,18 +183,11 @@ button {
 }
 
 /* a copy paste of my links page from my old website*/
-@media screen and (max-width:1060px) {
-    .link-page {
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center;
-    }
-}
-
 .link-page {
     text-align: center;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*this needs a rework so it works on desktops and on mobile, but that is a later me problem*/
 }
 
 .link-container:hover {
