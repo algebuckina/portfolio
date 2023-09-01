@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Bradley Turner </title>
+    <meta name="description"
+        content="Hey, I'm Brad and I'm an Industrial Designer in Sydney Australia. I currently works as a packaging designer and run my own design business.">
+    <meta name="keywords"
+        content="BRADLEY, TURNER, BRADLEY TURNER, PORTFOLIO, INDUSTRIAL DESIGNER, ALGEBUCKINA, DESIGN, DESIGNER, ALGBUCKINA DESIGN">
+    <meta name="author" content="Bradley Turner of Algebuckina Design">
+    <meta property="og:image" content=""> <!--need to make a logo for myself based on algebuckina design-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/ico" href="./favicon.ico">
+    <!--My plan is to adapt the style of https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm and make it my own. Following the layout ques -->
+</head>
+
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html#home" onclick="closeNav()">Home</a>
+        <a href="index.html#abouyMe" onclick="closeNav()">About Me</a>
+        <a href="index.html#portfolio" onclick="closeNav()">Portfolio</a>
+        <a href="index.html#contactMe" onclick="closeNav()">Contact Me</a>
+        <a href="./links">Links</a>
+        <a href="https://algebuckina-design.au/" onclick="closeNav()" target="_blank">My Company</a>
+
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Bradley Turner</h1>
+            <h2>My Portfolio</h2>
+        </header>
+
+        <nav>
+            <button class="openbtn" onclick="openNav()">☰</button>
+        </nav>
+
+        <main>
+            <div class="added">
+                <div class="middleme">
+                    <img src="https://algebuckina-design.au/assets/uploads/files/1666488420653-algebuckina-logo.jpg"
+                        alt="algebuckina logo">
+                    <h2>algebuckina</h2>
+                </div>
+                <br><br>
+                <a href="https://www.twitch.tv/algebuckina">
+                    <div class="link-container">
+                        <img src="https://algebuckina-design.au/assets/uploads/files/1666488226847-twitch.png"
+                            style="width: 60px; float: left">
+                        <h3 class="middleme">Twitch</h3>
+                    </div>
+                </a>
+                <br>
+                <a href="https://www.youtube.com/channel/UCrn0USAumuXJNT59CHlJnrQ">
+                    <div class="link-container">
+                        <img src="https://algebuckina-design.au/assets/uploads/files/1666488226889-youtube.png"
+                            style="width: 60px; float: left">
+                        <h3 class="middleme">Youtube</h3>
+                    </div>
+                </a>
+                <br>
+                <a href="https://discord.gg/5PSMK5HQEC">
+                    <div class="link-container">
+                        <img src="https://algebuckina-design.au/assets/uploads/files/1666488226767-discord.png"
+                            style="width: 60px; float: left">
+                        <h3 class="middleme">Discord</h3>
+                    </div>
+                </a>
+                <br>
+                <a href="https://www.instagram.com/b98turner/">
+                    <div class="link-container">
+                        <img src="https://algebuckina-design.au/assets/uploads/files/1666488226806-instagram.png"
+                            style="width: 60px; float: left">
+                        <h3 class="middleme">Instagram</h3>
+                    </div>
+                </a>
+                <br>
+                <a href="https://steamcommunity.com/id/algebuckina/">
+                    <div class="link-container">
+                        <img src="https://algebuckina-design.au/assets/uploads/files/1666488226836-steam.png"
+                            style="width: 60px; float: left">
+                        <h3 class="middleme">Steam</h3>
+                    </div>
+                </a>
+                <br>
+                <a href="./home">
+                    <div class="link-container">
+                        <img src="https://algebuckina-design.au/assets/uploads/files/1666488226877-web.png"
+                            style="width: 60px; float: left">
+                        <h3 class="middleme">Website</h3>
+                    </div>
+                </a>
+                <br>
+                <br>
+            </div>
+        </main>
+
+        <footer>
+            <p>© Bradley Turner 2023 | All Rights Reserved</p>
+            <p>:P</p>
+            <p>written by me from scratch because I hate myself.</p>
+        </footer>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+</body>
+
+</html>
