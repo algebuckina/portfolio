@@ -181,3 +181,27 @@ button {
         max-width: 100%;
     }
 }
+
+/* a copy paste of my links page from my old website*/
+.link-container:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+}
+
+.link-container {
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 5px 10% 10px 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    border-color: white;
+    border-style: solid;
+}
