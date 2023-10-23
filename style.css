@@ -78,6 +78,15 @@ h2 {
     border-width: 3px 6px;
 }
 
+.aboutMe {
+    margin-left: 40%;
+}
+
+.aboutMeImage {
+    width: "40%";
+    height: "auto";
+}
+
 @media only screen and (min-width: 1200px) {
     h1 {
         font-size: 84px;
@@ -181,6 +190,16 @@ button {
         flex: 50%;
         max-width: 50%;
     }
+
+    .aboutMe {
+        margin-left: 0px;
+    }
+
+    .aboutMeImage {
+        width: "60%";
+        text-align: center;
+        height: "auto";
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -188,6 +207,16 @@ button {
     .column {
         flex: 100%;
         max-width: 100%;
+    }
+
+    .aboutMe {
+        margin-left: 0px;
+    }
+
+    .aboutMeImage {
+        width: "80%";
+        text-align: center;
+        height: "auto";
     }
 }
 
