@@ -83,8 +83,7 @@ h2 {
 }
 
 .aboutMeImage {
-    width: "40%";
-    height: "auto";
+    width: 40%;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -196,9 +195,8 @@ button {
     }
 
     .aboutMeImage {
-        width: "60%";
+        width: 60%;
         text-align: center;
-        height: "auto";
     }
 }
 
@@ -214,9 +212,8 @@ button {
     }
 
     .aboutMeImage {
-        width: "80%";
+        width: 80%;
         text-align: center;
-        height: "auto";
     }
 }
 
