@@ -78,12 +78,9 @@ h2 {
     border-width: 3px 6px;
 }
 
-.aboutMe {
-    margin-left: 40%;
-}
-
 .aboutMeImage {
-    width: 40%;
+    width: 20%;
+    float: left;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -190,13 +187,10 @@ button {
         max-width: 50%;
     }
 
-    .aboutMe {
-        margin-left: 0px;
-    }
-
     .aboutMeImage {
-        width: 60%;
-        text-align: center;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -207,13 +201,10 @@ button {
         max-width: 100%;
     }
 
-    .aboutMe {
-        margin-left: 0px;
-    }
-
     .aboutMeImage {
+        margin-left: auto;
+        margin-right: auto;
         width: 80%;
-        text-align: center;
     }
 }
 
