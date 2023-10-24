@@ -133,7 +133,7 @@
 
     <!--This is for all my modals when a user clicks on the image.-->
     <div id="modalKeyboard" class="modal">
-        <span class="closeModal" onclick="closeModal()">&times;</span>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeModal()">×</a>
         <div class="modal-content">
             <img src="images/Projects/960x600.jpg" alt="Wood Keyboard" id="keyboardImg" width="100%">
             <h2>Wood Keyboard</h2>
@@ -157,7 +157,6 @@
 
         function openModal() {
             document.getElementById("modalKeyboard").style.height = "100%";
-            document.getElementById("modalKeyboard").style.display = "block";
         }
 
         function closeModal() {
