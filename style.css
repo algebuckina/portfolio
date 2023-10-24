@@ -76,14 +76,7 @@ h2 {
     border: rgb(238, 238, 238);
     border-style: solid;
     border-width: 3px 6px;
-    cursor: pointer;
-
-}
-
-.content_img:hover div {
-    padding: 0.33%;
-    visibility: visible;
-    opacity: 0.7;
+    position: relative;
 }
 
 .content_img div {
@@ -96,6 +89,16 @@ h2 {
     padding-right: 10%;
     font-size: 20px;
     padding: 0.33%;
+}
+
+.content_img:hover {
+    cursor: pointer;
+}
+
+.content_img:hover div {
+    padding: 0.33%;
+    visibility: visible;
+    opacity: 0.7;
 }
 
 @media only screen and (min-width: 1200px) {
