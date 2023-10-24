@@ -193,6 +193,8 @@ li {
     flex-wrap: wrap;
     padding: 0 4px;
     text-align: center;
+    width: 80%;
+    max-width: 700px;
 }
 
 .modal {
