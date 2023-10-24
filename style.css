@@ -77,18 +77,19 @@ h2 {
     border-style: solid;
     border-width: 3px 6px;
     position: relative;
+    text-align: center;
+    color: white;
 }
 
 .content_img div {
     position: relative;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     background: black;
-    color: white;
     font-family: sans-serif;
     opacity: 0.1;
     transition: visibility 0s, opacity 0.5s linear;
-    padding-right: 10%;
     font-size: 20px;
     padding: 0.33%;
 }
