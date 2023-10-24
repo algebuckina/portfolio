@@ -132,13 +132,12 @@
     </div>
 
     <!--This is for all my modals when a user clicks on the image.-->
-    <div id="allmodals">
-        <div id="modalKeyboard" class="modal">
-            <a href="javascript:void(0)" class="close" onclick="closeModal()">×</a>
-            <div class="modal-content">
-                <img src="images/Projects/960x600.jpg" alt="Wood Keyboard" id="keyboardImg" width="100%">
-                <h2>Wood Keyboard</h2>
-            </div>
+    <div id="modalKeyboard" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalKeyboard').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Projects/960x600.jpg" alt="Wood Keyboard" id="keyboardImg" width="100%">
+            <h2>Wood Keyboard</h2>
         </div>
     </div>
 
@@ -153,10 +152,6 @@
         function closeNav() {
             document.getElementById("mySidebar").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
-        }
-
-        function closeModal() {
-            document.getElementById("allmodals").style.height = "0%";
         }
     </script>
 </body>
