@@ -77,7 +77,8 @@
                 <div class="row">
                     <div class="column">
                         <h3 class="middleme">Projects</h3>
-                        <img src="images/Projects/960x600.jpg" class="content_img" alt="Wood Keyboard" id="keyboardImg">
+                        <img src="images/Projects/960x600.jpg" class="content_img" alt="Wood Keyboard"
+                            onclick="openModal()">
                         <img src="images/Projects/960x960.jpg" class="content_img" alt="Widevision VR">
                         <img src="images/Projects/960x480.jpg" class="content_img" alt="Bus Shelter">
                         <img src="images/Projects/960x1632.jpg" class="content_img" alt="BH Uniting Church Website">
@@ -132,9 +133,9 @@
 
     <!--This is for all my modals when a user clicks on the image.-->
     <div id="modalKeyboard" class="modal">
-        <span class="close">&times;</span>
+        <span class="closeModal" onclick="closeModal()">&times;</span>
         <div class="modal-content">
-            <img src="images/Projects/960x600.jpg" alt="Wood Keyboard" id="keyboardImg">
+            <img src="images/Projects/960x600.jpg" alt="Wood Keyboard" id="keyboardImg" width="100%">
             <h2>Wood Keyboard</h2>
         </div>
     </div>
@@ -153,23 +154,14 @@
     </script>
 
     <script>
-        // Get the modal
-        var modal = document.getElementById('modalKeyboard');
 
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById('keyboardImg');
-        img.onclick = function () {
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
+        function openModal() {
+            document.getElementById("modalKeyboard").style.height = "100%";
+            document.getElementById("modalKeyboard").style.display = "block";
         }
 
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function () {
-            modal.style.display = "none";
+        function closeModal() {
+            document.getElementById("modalKeyboard").style.height = "0%";
         }
     </script>
 
