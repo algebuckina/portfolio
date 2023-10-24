@@ -133,8 +133,10 @@
     <!--This is for all my modals when a user clicks on the image.-->
     <div id="modalKeyboard" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
+        <div class="modal-content">
+            <img src="images/Projects/960x600.jpg" alt="Wood Keyboard" id="keyboardImg">
+            <h2>Wood Keyboard</h2>
+        </div>
     </div>
 
 
@@ -156,8 +158,6 @@
 
         // Get the image and insert it inside the modal - use its "alt" text as a caption
         var img = document.getElementById('keyboardImg');
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
         img.onclick = function () {
             modal.style.display = "block";
             modalImg.src = this.src;
