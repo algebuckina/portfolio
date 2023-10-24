@@ -80,7 +80,9 @@ h2 {
 }
 
 .content_img div {
-    position: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
     background: black;
     color: white;
     font-family: sans-serif;
