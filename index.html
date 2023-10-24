@@ -74,11 +74,10 @@
             </div>
 
             <div class="middleme">
-                <!--To make my life easier, I'm going to have a 4 pixel transparent border around all these images that I apply pre upload-->
                 <div class="row">
                     <div class="column">
                         <h3 class="middleme">Projects</h3>
-                        <img src="images/Projects/960x600.jpg" class="content_img" alt="Wood Keyboard">
+                        <img src="images/Projects/960x600.jpg" class="content_img" alt="Wood Keyboard" id="keyboardImg">
                         <img src="images/Projects/960x960.jpg" class="content_img" alt="Widevision VR">
                         <img src="images/Projects/960x480.jpg" class="content_img" alt="Bus Shelter">
                         <img src="images/Projects/960x1632.jpg" class="content_img" alt="BH Uniting Church Website">
@@ -130,6 +129,15 @@
             <p>Sourcecode can be found <a href="https://github.com/algebuckina/portfolio" target="_blank">HERE</a></p>
         </footer>
     </div>
+
+    <!--This is for all my modals when a user clicks on the image.-->
+    <div id="modalKeyboard" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+
     <script>
         function openNav() {
             document.getElementById("mySidebar").style.width = "250px";
@@ -139,6 +147,29 @@
         function closeNav() {
             document.getElementById("mySidebar").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('modalKeyboard');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('keyboardImg');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
         }
     </script>
 
