@@ -92,12 +92,18 @@
                     </div>
                     <div class="column">
                         <h3 class="middleme">Experience</h3>
-                        <img src="images/Experience/960x1632.jpg" class="content_img" alt="abbe">
-                        <img src="images/Experience/960x960.jpg" class="content_img" alt="Algebuckina Design">
-                        <img src="images/Experience/960x640.jpg" class="content_img" alt="Mod The Galaxy">
-                        <img src="images/Experience/960x480.jpg" class="content_img" alt="BH Uniting Church">
-                        <img src="images/Experience/960x600.jpg" class="content_img" alt="House Worx">
-                        <img src="https://placehold.co/960x480" class="content_img" alt="Bounce Gymnastics">
+                        <img src="images/Experience/960x1632.jpg" class="content_img" alt="abbe"
+                            onclick="document.getElementById('modalAbbe').style.height = '100%';">
+                        <img src="images/Experience/960x960.jpg" class="content_img" alt="Algebuckina Design"
+                            onclick="document.getElementById('modalAD').style.height = '100%';">
+                        <img src="images/Experience/960x640.jpg" class="content_img" alt="Mod The Galaxy"
+                            onclick="document.getElementById('modalMTG').style.height = '100%';">
+                        <img src="images/Experience/960x480.jpg" class="content_img" alt="BH Uniting Church"
+                            onclick="document.getElementById('modalBHUC').style.height = '100%';">
+                        <img src="images/Experience/960x600.jpg" class="content_img" alt="House Worx"
+                            onclick="document.getElementById('modalHouseWorx').style.height = '100%';">
+                        <img src="https://placehold.co/960x480" class="content_img" alt="Bounce Gymnastics"
+                            onclick="document.getElementById('modalBounce').style.height = '100%';">
                         <!--I'll go to gym and ask if they have any old photos of me coaching 960x480-1-->
 
                     </div>
@@ -137,12 +143,15 @@
     </div>
 
     <!--This is for all my modals when a user clicks on the image.-->
+    <!--I will need new images for all of these, probably 1280x720-->
+    <!--Projects-->
     <div id="modalKeyboard" class="modal">
         <a href="javascript:void(0)" class="close"
             onclick="document.getElementById('modalKeyboard').style.height = '0%';">×</a>
         <div class="modal-content">
             <img src="images/Projects/960x600.jpg" alt="Wood Keyboard" width="100%">
             <h2>Wood Keyboard</h2>
+            <p>Small description</p>
         </div>
     </div>
 
@@ -152,6 +161,7 @@
         <div class="modal-content">
             <img src="images/Projects/960x960.jpg" alt="Widevision VR" width="100%">
             <h2>Widevision VR</h2>
+            <p>Small description</p>
         </div>
     </div>
 
@@ -161,6 +171,7 @@
         <div class="modal-content">
             <img src="images/Projects/960x480.jpg" alt="Bus Shelter" width="100%">
             <h2>Bus Shelter</h2>
+            <p>Small description</p>
         </div>
     </div>
 
@@ -170,6 +181,7 @@
         <div class="modal-content">
             <img src="images/Projects/960x1632.jpg" alt="BH Uniting Church Website" width="100%">
             <h2>Baulkham Hills Uniting Church Website</h2>
+            <p>Small description</p>
         </div>
     </div>
 
@@ -179,6 +191,7 @@
         <div class="modal-content">
             <img src="images/Projects/960x480-1.jpg" alt="SWGEmu Mod Manager" width="100%">
             <h2>SWGEmu Mod Manager</h2>
+            <p>Small description</p>
         </div>
     </div>
 
@@ -188,9 +201,70 @@
         <div class="modal-content">
             <img src="images/Projects/960x640.jpg" alt="Head Unit" width="100%">
             <h2>Custom Head Unit</h2>
+            <p>Small description</p>
         </div>
     </div>
 
+    <!--Experience-->
+    <div id="modalAbbe" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalAbbe').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Experience/960x1632.jpg" alt="abbe" width="100%">
+            <h2>Abbe NSW</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modalAD" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalAD').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Experience/960x960.jpg" alt="Algebuckina Design" width="100%">
+            <h2>Algebuckina Design</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modalMTG" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalMTG').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Experience/960x640.jpg" alt="Mod The Galaxy" width="100%">
+            <h2>Mod The Galaxy</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modalBHUC" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalBHUC').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Experience/960x480.jpg" alt="BH Uniting Church" width="100%">
+            <h2>Baulkham Hills Uniting Church</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modalHouseWorx" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalHouseWorx').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Experience/960x600.jpg" alt="House Worx" width="100%">
+            <h2>House Worx</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modalBounce" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalBounce').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="https://placehold.co/960x480" alt="Bounce Gymnastics" width="100%">
+            <h2>Bounce Gymnastics</h2>
+            <p>Small description</p>
+        </div>
+    </div>
 
 
     <script>
