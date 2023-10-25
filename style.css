@@ -33,9 +33,12 @@ footer {
     background-color: rgb(238, 238, 238);
     border-radius: 10px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
     width: 80%;
     max-width: 700px;
+    color: rgb(255, 255, 255);
+    font-size: 8px;
+    margin: auto;
 }
 
 h1 {
@@ -51,12 +54,6 @@ h2 {
 
 .middleme {
     text-align: center;
-}
-
-.break {
-    width: auto;
-    background-color: rgba(0, 0, 0, 0.1);
-    height: 60px;
 }
 
 .content_img {
@@ -116,12 +113,6 @@ ul {
 li {
     width: 200px;
     margin: 0 auto;
-}
-
-.footer {
-    color: rgb(255, 255, 255);
-    padding-bottom: 8px;
-    font-size: 8px;
 }
 
 .sidebar {
