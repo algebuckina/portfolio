@@ -35,7 +35,7 @@ footer {
     text-align: center;
     padding-bottom: 18px;
     width: 80%;
-    max-width: 700px;
+    max-width: 1280px;
     color: rgb(255, 255, 255);
     font-size: 8px;
     margin: auto;
@@ -82,7 +82,7 @@ p {
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     text-shadow: black;
     width: 80%;
-    max-width: 700px;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -169,7 +169,7 @@ li {
     padding: 0 4px;
     text-align: center;
     width: 80%;
-    max-width: 900px;
+    max-width: 1280px;
 }
 
 .modal {
