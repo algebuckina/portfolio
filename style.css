@@ -108,6 +108,7 @@ ul {
     color: white;
     padding: 0px;
     width: 100%;
+    z-index: 2;
 }
 
 li {
@@ -275,13 +276,4 @@ li {
     -moz-transition: .5s;
     border-color: white;
     border-style: solid;
-}
-
-.paperOverlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.1);
-    pointer-events: none;
-    z-index: 10;
 }
