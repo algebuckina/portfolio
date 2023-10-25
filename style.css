@@ -279,7 +279,7 @@ li {
 
 .paperOverlay {
     background-image: url("images/noisy-background.jpg");
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     pointer-events: none;
     opacity: 0.1;
     z-index: 10;
