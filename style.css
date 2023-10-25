@@ -6,8 +6,6 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: Ubuntu, Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(100, 100, 100);
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 header {
@@ -23,6 +21,7 @@ header {
 
 nav {
     position: fixed;
+    padding-left: 15%;
     top: 4px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -62,8 +61,8 @@ h2 {
     min-height: 120px;
     height: auto;
     text-align: left;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 main {
