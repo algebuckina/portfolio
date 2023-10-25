@@ -60,10 +60,7 @@ h2 {
     border-style: solid;
     border-width: 4px 6px;
     position: relative;
-}
-
-.content_img img {
-    opacity: 0.7;
+    opacity: 0.75;
 }
 
 .content_img:hover {
