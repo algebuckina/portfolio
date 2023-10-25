@@ -6,6 +6,7 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: Ubuntu, Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(100, 100, 100);
+    margin: 0;
 }
 
 header {
@@ -21,7 +22,7 @@ header {
 
 nav {
     position: fixed;
-    padding-left: 200px;
+    padding-left: 50px;
     top: 4px;
     padding-bottom: 10px;
     padding-top: 10px;
