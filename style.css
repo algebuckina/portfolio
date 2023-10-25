@@ -201,6 +201,17 @@ li {
     color: #ffffff;
 }
 
+.modal-content p {
+    width: 80%;
+    max-width: 800px;
+    word-break: break-all;
+    white-space: normal;
+}
+
+.modal-content a {
+    color: white;
+}
+
 .modal-content img {
     border-radius: 10px;
 }
