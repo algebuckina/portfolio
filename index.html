@@ -126,12 +126,18 @@
                     </div>
                     <div class="column">
                         <h3 class="middleme">Interests</h3>
-                        <img src="images/Interests/960x480.jpg" class="content_img" alt="Virtual Racing">
-                        <img src="images/Interests/960x640.jpg" class="content_img" alt="Camping">
-                        <img src="images/Interests/960x480-1.jpg" class="content_img" alt="CNC Router work">
-                        <img src="images/Interests/960x1632.jpg" class="content_img" alt="Cars">
-                        <img src="images/Interests/960x600.jpg" class="content_img" alt="3D Printing">
-                        <img src="https://placehold.co/960x960" class="content_img" alt="Computers and Technology">
+                        <img src="images/Interests/960x480.jpg" class="content_img" alt="Virtual Racing"
+                            onclick="document.getElementById('modalRacing').style.height = '100%';">
+                        <img src="images/Interests/960x640.jpg" class="content_img" alt="Camping"
+                            onclick="document.getElementById('modalCamping').style.height = '100%';">
+                        <img src="images/Interests/960x480-1.jpg" class="content_img" alt="CNC Router work"
+                            onclick="document.getElementById('modalCNC').style.height = '100%';">
+                        <img src="images/Interests/960x1632.jpg" class="content_img" alt="Cars"
+                            onclick="document.getElementById('modalCars').style.height = '100%';">
+                        <img src="images/Interests/960x600.jpg" class="content_img" alt="3D Printing"
+                            onclick="document.getElementById('modal3D').style.height = '100%';">
+                        <img src="https://placehold.co/960x960" class="content_img" alt="Computers and Technology"
+                            onclick="document.getElementById('modalTech').style.height = '100%';">
                         <!--all my arduino and raspberry pi stuff in a studio photo 960x960-->
                     </div>
                 </div>
@@ -287,8 +293,8 @@
             onclick="document.getElementById('modalDesign').style.height = '0%';">×</a>
         <div class="modal-content">
             <img src="https://placehold.co/960x480" alt="Design" width="100%">
-            <!--I need to replace this with an image of design-->
-            <h2>Design</h2>
+            <!--Make this my prototyping image-->
+            <h2>Design and Innovation</h2>
             <p>Small description</p>
         </div>
     </div>
@@ -297,7 +303,8 @@
         <a href="javascript:void(0)" class="close"
             onclick="document.getElementById('modalProto').style.height = '0%';">×</a>
         <div class="modal-content">
-            <img src="images/Modals/prototyping.JPG" alt="CAD" width="100%">
+            <img src="images/Modals/prototyping.JPG" alt="Prototyping" width="100%">
+            <!--Change this image to the one of me with my homemade AR headset-->
             <h2>Prototyping</h2>
             <p>Small description</p>
         </div>
@@ -307,7 +314,7 @@
         <a href="javascript:void(0)" class="close"
             onclick="document.getElementById('modalCode').style.height = '0%';">×</a>
         <div class="modal-content">
-            <img src="images/Modals/code.jpg" alt="CAD" width="100%">
+            <img src="images/Modals/code.jpg" alt="Coding" width="100%">
             <h2>Coding</h2>
             <p>Small description</p>
         </div>
@@ -317,7 +324,7 @@
         <a href="javascript:void(0)" class="close"
             onclick="document.getElementById('modalCS').style.height = '0%';">×</a>
         <div class="modal-content">
-            <img src="https://placehold.co/960x480" alt="CAD" width="100%">
+            <img src="https://placehold.co/960x480" alt="Customer Service" width="100%">
             <!--I need to replace this with an image of customer service-->
             <h2>Coding</h2>
             <p>Small description</p>
@@ -328,13 +335,74 @@
         <a href="javascript:void(0)" class="close"
             onclick="document.getElementById('modalVR').style.height = '0%';">×</a>
         <div class="modal-content">
-            <img src="images/Modals/VR.jpg" alt="CAD" width="100%">
+            <img src="images/Modals/VR.jpg" alt="Virtual Reality" width="100%">
             <h2>Virtual and Augmented Reality</h2>
             <p>Small description</p>
         </div>
     </div>
 
     <!--Interests-->
+    <div id="modalRacing" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalRacing').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Modals/virtualRacing.jpg" alt="CAD" width="100%">
+            <h2>Virtual Racing and Events</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modalCamping" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalCamping').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Modals/camping.jpg" alt="Camping" width="100%">
+            <h2>Camping and Travel</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modalCNC" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalCNC').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Modals/CNC.jpg" alt="CNC" width="100%">
+            <h2>CNC Routing</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modalCars" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalCars').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="images/Modals/cars.jpg" alt="Cars" width="100%">
+            <h2>Cars</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modal3D" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modal3D').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="https://placehold.co/960x480" alt="3D printing" width="100%">
+            <!--I need an image of something I 3D printed, maybe the trophie I want to make for ADRS-->
+            <h2>3D printing</h2>
+            <p>Small description</p>
+        </div>
+    </div>
+
+    <div id="modalTech" class="modal">
+        <a href="javascript:void(0)" class="close"
+            onclick="document.getElementById('modalTech').style.height = '0%';">×</a>
+        <div class="modal-content">
+            <img src="https://placehold.co/960x480" alt="Tech" width="100%">
+            <!--Maybe a photo of my server? I'm not sure what to put for this one-->
+            <h2>Computers and Technology</h2>
+            <p>Small description</p>
+        </div>
+    </div>
 
     <script>
         function openNav() {
