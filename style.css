@@ -167,17 +167,6 @@ li {
     background-color: lightgrey;
 }
 
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-
-.container1 {
-    position: relative;
-    text-align: center;
-}
-
 .row {
     margin: auto;
     display: flex;
