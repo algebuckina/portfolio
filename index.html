@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!--I just copy pasted this from my old portfolio-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,9 +21,11 @@
 
 <body>
 
+    <!--This is the same sidebar I designed for my 1st website, just rolled forward-->
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="index.html#home" onclick="closeNav()">Home</a>
+        <!--the #home sends the page to a div with id="home", I've moved these a section up from each of the sections due to the size of the header-->
         <a href="index.html#aboutMe" onclick="closeNav()">About Me</a>
         <a href="index.html#portfolio" onclick="closeNav()">Portfolio</a>
         <a href="index.html#contactMe" onclick="closeNav()">Contact Me</a>
@@ -31,6 +34,7 @@
 
     </div>
 
+    <!--this container is for the image at the top of the page. It floats text above it, but removes it when the screen gets too small and the text starts getting close to my head in the image-->
     <div class="container" id="home">
         <div style="position: relative;  text-align: center;">
             <img src="images/me-main.jpg" alt="title image" width="100%" height="auto" id="home">
@@ -40,17 +44,18 @@
             </div>
         </div>
 
+        <!--This header sits bellow the image so I am front and center when the page loads, when it reaches the top of the page it stays attached to it.-->
         <header>
             <h2 id="aboutMe">Bradley Turner</h2>
             <h3>My Portfolio</h3>
         </header>
 
+        <!--this button opens the sidebar. It worked on my 1st website, might as well use it again-->
         <nav>
             <button class="openbtn" onclick="openNav()">☰</button>
         </nav>
 
         <main>
-
             <h2 class="middleme">About Me</h2>
             <p>Hey, I'm Bradley Turner, and I am currently a packaging designer at abbe. I'm
                 also the founder of my own startup, Algebuckina Design where I manage the company and lead my small
@@ -58,7 +63,7 @@
                 Design. This website is a snippet of what I've done and things about me, and feel free to <a
                     href="index.html#contactMe">Contact
                     Me >></a></p>
-
+            <!--this is the bar that shows my stats on screen. I'm not sure how I got it to work but it does and looks pretty good. Given the change, I will make the number count up from 0 when it loads.-->
             <ul id="portfolio">
                 <li>
                     <h3>2+</h3>
@@ -81,6 +86,7 @@
                         <h3 class="middleme">Projects</h3>
                         <img src="images/Projects/960x600.jpg" class="content_img" alt="Wood Keyboard"
                             onclick="document.getElementById('modalKeyboard').style.height = '100%';">
+                        <!--these are the images in the collage, when clicked on, they summon the modals that relate to them. They are all at 0 height at the top of the page and this command drags the specified one down-->
                         <img src="images/Projects/960x960.jpg" class="content_img" alt="Widevision VR"
                             onclick="document.getElementById('modalWidevision').style.height = '100%';">
                         <img src="images/Projects/960x480.jpg" class="content_img" alt="Bus Shelter"
@@ -145,7 +151,7 @@
                 </div>
             </div>
             <hr>
-
+            <!--this doesn't work yet, but I'll look into it at some point-->
             <h2 id="contactMe" class="middleme">Contact Me</h2>
             <p>Hey, thanks for having a look at my portfolio, if you have any questions or comments, feel free to fill
                 out the bellow form and I'll get back to you as soon as I can!</p>
