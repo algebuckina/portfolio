@@ -307,3 +307,9 @@ li {
     border-color: white;
     border-style: solid;
 }
+
+@media only screen and (max-width: 800px) {
+    .title {
+        display: none;
+    }
+}
