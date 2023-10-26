@@ -207,10 +207,12 @@ li {
 .modal-content p {
     width: 100%;
     white-space: normal;
+    text-align: left;
 }
 
 .modal-content a {
-    color: white;
+    color: lightblue;
+    text-decoration: underline;
 }
 
 .modal-content img {
