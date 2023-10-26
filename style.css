@@ -207,6 +207,8 @@ li {
 .modal-content h2 {
     width: 80%;
     white-space: normal;
+    text-align: center;
+    margin: auto;
 }
 
 .modal-content p {
