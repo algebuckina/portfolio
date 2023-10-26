@@ -208,7 +208,8 @@ li {
     width: 80%;
     white-space: normal;
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .modal-content p {
