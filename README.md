@@ -2,7 +2,7 @@
 
 https://algebuckina.github.io/portfolio/index.html
 
-My personal to showcase my work, experience and skills
+My personal website to showcase my work, experience and skills
 
 This is my 1.0 release! I hope you enjoy it.
 
