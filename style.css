@@ -52,6 +52,8 @@ h2 {
 }
 
 h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
     transform: translate(5px, -30px);
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
