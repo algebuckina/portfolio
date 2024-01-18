@@ -19,12 +19,35 @@ title: Bradley Turner's Portfolio
 email: bgt98@hotmail.com
 author: Braldey Turner
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hey, I'm a 26 year old Packaging Designer at abbe. I also run a small business, Algebuckina Design, in my spare time. I'm looking at moving away from the packaging industry to something more challenging and diverse than cardboard boxes. I am proficient in Solidworks and marking up drawing sheets. I'm also a very keen model builder, always wanting to design and build something new for myself or others.
+
+  I love a challenge and thrive when I'm thrown into the deep end. Although I have a degree in Industrial Design, I've worked on coding, virtual reality, web design, content creation, streaming and event projects after I graduating to push myself and learn new things. 
+
+
+copyright: "Copyright (cleft) 2023-{currentYear} {author}"
+yat:
+  date_format: "%Y-%m-%d"
+sitemap: true
+
+header_pages:
+  - index.html
+  - archives.html
+  - categories.html
+  - tags.html
+  - about.md
+
+defaults:
+  home:
+    heading: "Bradley Turner"
+    subheading: "My Design Portfolio"
+#    banner: "Your image url"
+
+brand_color: "#6a93fc"
+# theme_color: "#6a93fc"
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: algebuckina
+twitter_username: algebuckina1
 github_username:  algebuckina
 
 # Build settings
