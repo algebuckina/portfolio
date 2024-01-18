@@ -27,14 +27,14 @@ I started the company, Algebuckina Design, and started working on prototypes wit
 
 ## Building my own keyboard
 
-Before diving into making a keyboard completely from scratch, I wanted to see what the budget mechanical keyboard market looked like and how hard it was to assemble a keyboard myself. I chose [Matias Quiet Click][switches] switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stablisers. I found soldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today.
+Before diving into making a keyboard completely from scratch, I wanted to see what the budget mechanical keyboard market looked like and how hard it was to assemble a keyboard myself. I chose [Matias Quiet Click][switches] switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stabilisers. I found soldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today.
 
 ![1st keyboard build]()
 
 This experience did show me a few things:
 * Don't use alps style switches, the keycap set was really hard to come by
 * I'd need to create internal documentation for the firmware flashing process or maybe even automate it
-* I can't cheap out on stablisers, the ones I got were terrible and very rattly
+* I can't cheap out on stabilisers, the ones I got were terrible and very rattly
 * I prefer the feel of my Unicomp Keyboard, so anything I make for myself will need a metallic click
 
 ## Designing everything from scratch
@@ -62,13 +62,13 @@ While doing some research, I stumbled across [this resource on github](keyblist)
 
 In this list, I did find a range of PCBs called [Voyager](voyager) which I plan to use for the final keyboard design, and means I don't need to delve into PCB design _yet._
 
-Also on the topic of open source, begun using freeCAD around this time too, which is far easier to use than a 20 year old CAD software, and it trades blows with what I am educated on, Solidworks, so I'll be using it from now on.
+Also on the topic of open source, begun using freeCAD around this time too, which is far easier to use than a 20 year old CAD software, and it trades blows with what I am educated on, SolidWorks, so I'll be using it from now on.
 
 ## Now, and looking forward
 
 ### PCB
 
-As of right now, my holdup is getting my hands on one of the open source PCBs. I'm currently working out how to place an order for a small quanitity of PCBs that are fully assembled, but it seems the industry tries to make it as hard as possible for people new to everything to order prototype PCBs. I am looking to get in touch with circuitwise which is a NSW based PCB manufacturer who also does assembly, though their website is far from helpful so I am going to need to call them. After this is done I can move onto the following steps.
+As of right now, my holdup is getting my hands on one of the open source PCBs. I'm currently working out how to place an order for a small quanitity of PCBs that are fully assembled, but it seems the industry tries to make it as hard as possible for people new to everything to order prototype PCBs. I am looking to get in touch with CircuitWise which is a NSW based PCB manufacturer who also does assembly, though their website is far from helpful so I am going to need to call them. After this is done I can move onto the following steps.
 
 ### Skew 1
 
