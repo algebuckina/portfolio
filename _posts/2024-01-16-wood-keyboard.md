@@ -27,23 +27,23 @@ I started the company, Algebuckina Design, and started working on prototypes wit
 
 ## Building my own keyboard
 
-Before diving into making a keyboard completly from scratch, I wanted to see what the budget mechancial keyboard market looked like and how hard it was to assemble a keyboard myself. I chose [Matias Quiet Click][switches] switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stablisers. I found souldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today.
+Before diving into making a keyboard completely from scratch, I wanted to see what the budget mechanical keyboard market looked like and how hard it was to assemble a keyboard myself. I chose [Matias Quiet Click][switches] switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stablisers. I found soldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today.
 
 ![1st keyboard build]()
 
 This experience did show me a few things:
 * Don't use alps style switches, the keycap set was really hard to come by
-* I'd need to create internal documnetation for the firmware flashing process or maybe even automate it
+* I'd need to create internal documentation for the firmware flashing process or maybe even automate it
 * I can't cheap out on stablisers, the ones I got were terrible and very rattly
-* I prefer the feel of my Unicomp Keyboard, so antyhing I make for myself will need a metalic click
+* I prefer the feel of my Unicomp Keyboard, so anything I make for myself will need a metallic click
 
 ## Designing everything from scratch
 
-With my 1st hand research done, I then wanted to design an entire keyboard from scratch, PCB and all. Though I only had access to an old version of Pro Desktop from 2005 for CAD software and no idea how to design a PCB. After trying to lay everything out in pro desktop and crashing it many times, I sidelined working on the plate and case and begun work on the PCB, downloaded keiCAD and promply for overwhelmed. I did eventually find [this tool][tool] that did help with a layered design, but not knowing how to design PCBs had me at a standstill.
+With my 1st hand research done, I then wanted to design an entire keyboard from scratch, PCB and all. Though I only had access to an old version of Pro Desktop from 2005 for CAD software and no idea how to design a PCB. After trying to lay everything out in pro desktop and crashing it many times, I sidelined working on the plate and case and begun work on the PCB, downloaded keiCAD and was promptly overwhelmed. I did eventually find [this tool][tool] that did help with a layered design, but not knowing how to design PCBs had me at a standstill.
 
 ## Working with an off the self PCB
 
-With designing my own PCB not being an option, I looked back to the place I got my 1st PCB, and they had one that suited my needs. Using it, and the tool I mentioned earlier, found out the CNC router I purchased and built from [BlueCarve CNC][blu] wasn't set accuratly enough to cut the plate that holds all the switches. After some research, adjustments and many plate prototypes later, I had a functional 1st prototype including some simple keycaps.
+With designing my own PCB not being an option, I looked back to the place I got my 1st PCB, and they had one that suited my needs. Using it, and the tool I mentioned earlier, found out the CNC router I purchased and built from [BlueCarve CNC][blu] wasn't set accurately enough to cut the plate that holds all the switches. After some research, adjustments and many plate prototypes later, I had a functional 1st prototype including some simple keycaps.
 
 ![1st Keyboard Prototype photo](https://raw.githubusercontent.com/algebuckina/portfolio/main/images/Projects/960x600.jpg)
 
@@ -56,7 +56,7 @@ This prototype was invaluable, and really highlighted the following:
 
 ## Looking to Open Source
 
-While doing some research, I stumbled across [this resource on github](keyblist) which had a bunch of open source keyboards, cases and PCBs and found that the [Garbert](garbert) is very similar to what I wanted to create and had an MIT licence which means I could use it for commercial use. I was considering doing this, but I didn't want to make a 60% keyboard, neither did I want a screen or knob as it might drive the more mainstream market away. I'm also way too proud to just use someone elses design.
+While doing some research, I stumbled across [this resource on github](keyblist) which had a bunch of open source keyboards, cases and PCBs and found that the [Garbert](garbert) is very similar to what I wanted to create and had an MIT license which means I could use it for commercial use. I was considering doing this, but I didn't want to make a 60% keyboard, neither did I want a screen or knob as it might drive the more mainstream market away. I'm also way too proud to just use someone elses design.
 
 ![Garbert keyboard render](https://raw.githubusercontent.com/KoBussLLC/grabert-hardware/main/doc/grabert_white_canvas_angled.jpg)
 
@@ -72,11 +72,11 @@ As of right now, my holdup is getting my hands on one of the open source PCBs. I
 
 ### Skew 1
 
-Skew 1 will be based on the origional concept of a layered design. It'll be more cost effective due to the wood I can get from Koenig Machinery. The poplar panels come pre finished so I don't need to clear coat or stain the wood which reduces production time from a few days to a few hours.
+Skew 1 will be based on the original concept of a layered design. It'll be more cost effective due to the wood I can get from Koenig Machinery. The poplar panels come pre finished so I don't need to clear coat or stain the wood which reduces production time from a few days to a few hours.
 
 ### Skew 2
 
-Skew 2 is a more conventional mechanical keyboard design with a bottom case and keycap plate. The bottom case will be made with solid wood and CNC'd out, and the plate will use higher strength plyco plywood for less flex while typing. The main par that sets the 2 skews apart is the standing staining and clear finishing step in the manufacturing process, which is why skew 2 will be priced as a premium option.
+Skew 2 is a more conventional mechanical keyboard design with a bottom case and keycap plate. The bottom case will be made with solid wood and CNC'd out, and the plate will use higher strength Plyco plywood for less flex while typing. The main par that sets the 2 skews apart is the standing staining and clear finishing step in the manufacturing process, which is why skew 2 will be priced as a premium option.
 
 ### Keycaps
 
