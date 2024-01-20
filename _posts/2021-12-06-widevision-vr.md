@@ -9,13 +9,14 @@ banner:
   # loop: true
   # volume: 0.8
   # start_at: 8.5
-  image: https://bit.ly/3xTmdUP # Maybe take a new screenshot of the environment specifically for this
+  image: /assets/images/topics/banners/widevision.jpg # Maybe take a new screenshot of the environment specifically for this
   opacity: 0.618
   background: "#000"
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
+  top: 1
 tags: [WSU, design, VR]
 ---
 

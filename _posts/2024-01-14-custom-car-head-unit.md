@@ -9,7 +9,7 @@ banner:
   # loop: true
   # volume: 0.8
   # start_at: 8.5
-  image: https://bit.ly/3xTmdUP # No idea honestly
+  image: /assets/images/topics/banners/headunit.jpg # No idea honestly
   opacity: 0.618
   background: "#000"
   height: "100vh"

@@ -9,7 +9,7 @@ banner:
   # loop: true
   # volume: 0.8
   # start_at: 8.5
-  image: https://bit.ly/3xTmdUP # render of the newest keyboard design.
+  image: /assets/images/topics/banners/blender.jpg # render of the newest keyboard design.
   opacity: 0.618
   background: "#000"
   height: "100vh"

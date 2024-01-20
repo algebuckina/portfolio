@@ -9,7 +9,7 @@ banner:
   # loop: true
   # volume: 0.8
   # start_at: 8.5
-  image: https://bit.ly/3xTmdUP # bus shelter render
+  image: /assets/images/topics/banners/bus.jpg # bus shelter render
   opacity: 0.618
   background: "#000"
   height: "100vh"

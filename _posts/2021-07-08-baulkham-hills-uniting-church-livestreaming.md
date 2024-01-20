@@ -9,7 +9,7 @@ banner:
   # loop: true
   # volume: 0.8
   # start_at: 8.5
-  image: https://bit.ly/3xTmdUP # A screenshot of a speaker out the front of the Church. Preferably evening Church for better lighting. Maybe even a video
+  image: /assets/images/topics/banners/stmattslive.jpg # A screenshot of a speaker out the front of the Church. Preferably evening Church for better lighting. Maybe even a video
   opacity: 0.618
   background: "#000"
   height: "100vh"
