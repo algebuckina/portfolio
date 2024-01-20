@@ -9,7 +9,7 @@ banner:
   # loop: true
   # volume: 0.8
   # start_at: 8.5
-  image: https://bit.ly/3xTmdUP # render of the newest keyboard design.
+  image: /assets/images/topics/banners/keyboard.jpg # render of the newest keyboard design.
   opacity: 0.618
   background: "#000"
   height: "100vh"
@@ -45,7 +45,7 @@ With my 1st hand research done, I then wanted to design an entire keyboard from 
 
 With designing my own PCB not being an option, I looked back to the place I got my 1st PCB, and they had one that suited my needs. Using it, and the tool I mentioned earlier, found out the CNC router I purchased and built from [BlueCarve CNC][blu] wasn't set accurately enough to cut the plate that holds all the switches. After some research, adjustments and many plate prototypes later, I had a functional 1st prototype including some simple keycaps.
 
-![1st Keyboard Prototype photo](https://raw.githubusercontent.com/algebuckina/portfolio/main/images/Projects/960x600.jpg)
+![1st Keyboard Prototype photo](/assets/images/topics/content/keyboard1.jpg)
 
 This prototype was invaluable, and really highlighted the following:
 
