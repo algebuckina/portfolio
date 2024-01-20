@@ -19,8 +19,6 @@ banner:
 tags: [algebuckina design, design, tech]
 ---
 
-## Introduction
-
 My fascination with keyboards started when the backlit keyboard I’d been using for 3 years started to fall apart, I wanted something that would last. One thing came to another, and I ended up diving down the rabbit hole that is mechanical keyboards and found longevity and sustainability and mostly ignored in the entire computer peripherals space. I ended up getting a Unicomp terminal keyboard as the original keyboards from IBM still work to this day, but I had an urge to develop and sell a more sustainable mechanical keyboard.
 
 I started the company, Algebuckina Design, and started working on prototypes with my newly acquired CNC router, and have been through many iterations, finding multiple tools and cut files online to try and get to a functional keyboard (as well as struggling through the teething problems of a hobby CNC router) but I’m now very close to having a few working prototypes for usability testing.
@@ -29,7 +27,7 @@ I started the company, Algebuckina Design, and started working on prototypes wit
 
 Before diving into making a keyboard completely from scratch, I wanted to see what the budget mechanical keyboard market looked like and how hard it was to assemble a keyboard myself. I chose [Matias Quiet Click][switches] switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stabilisers. I found soldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today.
 
-![1st keyboard build]()
+![1st keyboard build](/assets/images/topics/content/keyboard2.jpg)
 
 This experience did show me a few things:
 * Don't use alps style switches, the keycap set was really hard to come by
@@ -45,7 +43,7 @@ With my 1st hand research done, I then wanted to design an entire keyboard from 
 
 With designing my own PCB not being an option, I looked back to the place I got my 1st PCB, and they had one that suited my needs. Using it, and the tool I mentioned earlier, found out the CNC router I purchased and built from [BlueCarve CNC][blu] wasn't set accurately enough to cut the plate that holds all the switches. After some research, adjustments and many plate prototypes later, I had a functional 1st prototype including some simple keycaps.
 
-![1st Keyboard Prototype photo](/assets/images/topics/content/keyboard1.jpg)
+![1st Keyboard Prototype photo](assets/images/topics/content/keyboard1.jpg)
 
 This prototype was invaluable, and really highlighted the following:
 
