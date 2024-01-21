@@ -9,7 +9,7 @@ banner:
   # loop: true
   # volume: 0.8
   # start_at: 8.5
-  image: https://bit.ly/3xTmdUP # take the default theme image and edit to feature the new St matts website https://jeffreytse.github.io/jekyll-theme-yat/
+  image: assets/images/topics/banners/stmattswebsite.jpg # take the default theme image and edit to feature the new St matts website https://jeffreytse.github.io/jekyll-theme-yat/
   opacity: 0.618
   background: "#000"
   height: "100vh"
