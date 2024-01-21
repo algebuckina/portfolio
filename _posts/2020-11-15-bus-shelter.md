@@ -24,4 +24,4 @@ The Bus shelter was my most successful project at university excluding my major 
 
 We ended up topping the class, having the best model (which I constructed piece by piece) and the most manufacturable design. We were even invited to Widevision 2021 where I was able to showcase the model we made.
 
-## 
+![1st keyboard build](/portfolio/assets/images/topics/content/bus1.jpg)

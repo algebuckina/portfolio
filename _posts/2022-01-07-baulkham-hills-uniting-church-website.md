@@ -26,5 +26,14 @@ The custom pages plugin took HTML and CSS code and displays it on a blank page w
 
 I have since left the Church, but I still support their website and apply any changes they request at no cost.
 
-Before: Homepage / Youth and Young Adults
-After: Homepage / Youth and Young Adults
+
+### Changes
+
+Before: [Homepage](before-home) / [Youth and Young Adults](before-youth)
+
+After: [Homepage](after-home) / [Youth and Young Adults](after-youth)
+
+[before-home]: http://web.archive.org/web/20210302130420/http://stmatthewsuniting.net.au/
+[before-youth]: http://web.archive.org/web/20210302141036/http://stmatthewsuniting.net.au/?page_id=66
+[after-home]: https://stmatthewsuniting.net.au/
+[after-youth]: https://stmatthewsuniting.net.au/youth
