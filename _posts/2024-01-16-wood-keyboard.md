@@ -23,7 +23,7 @@ My fascination with keyboards started when the backlit keyboard I’d been using
 
 I started the company, Algebuckina Design, and started working on prototypes with my newly acquired CNC router, and have been through many iterations, finding multiple tools and cut files online to try and get to a functional keyboard (as well as struggling through the teething problems of a hobby CNC router) but I’m now very close to having a few working prototypes for usability testing.
 
-## Building my own keyboard
+# Building my own keyboard
 
 Before diving into making a keyboard completely from scratch, I wanted to see what the budget mechanical keyboard market looked like and how hard it was to assemble a keyboard myself. I chose [Matias Quiet Click][switches] switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stabilisers. I found soldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today.
 
@@ -35,11 +35,11 @@ This experience did show me a few things:
 * I can't cheap out on stabilisers, the ones I got were terrible and very rattly
 * I prefer the feel of my Unicomp Keyboard, so anything I make for myself will need a metallic click
 
-## Designing everything from scratch
+# Designing everything from scratch
 
 With my 1st hand research done, I then wanted to design an entire keyboard from scratch, PCB and all. Though I only had access to an old version of Pro Desktop from 2005 for CAD software and no idea how to design a PCB. After trying to lay everything out in pro desktop and crashing it many times, I sidelined working on the plate and case and begun work on the PCB, downloaded keiCAD and was promptly overwhelmed. I did eventually find [this tool][tool] that did help with a layered design, but not knowing how to design PCBs had me at a standstill.
 
-## Working with an off the self PCB
+# Working with an off the self PCB
 
 With designing my own PCB not being an option, I looked back to the place I got my 1st PCB, and they had one that suited my needs. Using it, and the tool I mentioned earlier, found out the CNC router I purchased and built from [BlueCarve CNC][blu] wasn't set accurately enough to cut the plate that holds all the switches. After some research, adjustments and many plate prototypes later, I had a functional 1st prototype including some simple keycaps.
 
@@ -52,7 +52,7 @@ This prototype was invaluable, and really highlighted the following:
 * The layered design is a lot easier to make, but is quite bulky and not as nice to look at, so I want to break out into 2 designs, 1 cheaper, 1 more premium
 * I should be testing and checking my CNC router every now and then and adjust as needed
 
-## Looking to Open Source
+# Looking to Open Source
 
 While doing some research, I stumbled across [this resource on github](keyblist) which had a bunch of open source keyboards, cases and PCBs and found that the [Garbert](garbert) is very similar to what I wanted to create and had an MIT license which means I could use it for commercial use. I was considering doing this, but I didn't want to make a 60% keyboard, neither did I want a screen or knob as it might drive the more mainstream market away. I'm also way too proud to just use someone elses design.
 
@@ -62,7 +62,7 @@ In this list, I did find a range of PCBs called [Voyager](voyager) which I plan 
 
 Also on the topic of open source, begun using freeCAD around this time too, which is far easier to use than a 20 year old CAD software, and it trades blows with what I am educated on, SolidWorks, so I'll be using it from now on.
 
-## Now, and looking forward
+# Now, and looking forward
 
 ### PCB
 

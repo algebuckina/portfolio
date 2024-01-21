@@ -24,13 +24,13 @@ As part of volunteering for the digital outreach team at my old Church, I really
 
 Today, after my departure, the Church still streams 2 out of 3 of it's services on Twitch and edits and uploads them to Youtube a few days later, with some older members of the Church exclusvely enjoying the service from home now. I am honestly really proud of how everything turned out, and it's helped the Church grow in audience.
 
-## Before improvements
+# Before improvements
 These services only used a Logitech webcam taped to a mic stand.
 <iframe width="auto" height="480" src="https://www.youtube.com/embed/dbiA3gZB0L0?si=Q41mivj9h6Vo9qm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
 
-## After improvements
+# After improvements
 This is the final service I helped produce and edited. I also designed all the thumbnails they use too.
 <iframe width="auto" height="480" src="https://www.youtube.com/embed/zd0CYhC_yUc?si=8xTuwBu4MpkCgTQm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

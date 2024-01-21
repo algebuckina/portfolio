@@ -27,7 +27,7 @@ The custom pages plugin took HTML and CSS code and displays it on a blank page w
 I have since left the Church, but I still support their website and apply any changes they request at no cost.
 
 
-### Changes
+# Changes
 
 Before: [Homepage](before-home) / [Youth and Young Adults](before-youth)
 
