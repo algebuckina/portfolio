@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: [algebuckina design, tech]
+tags: [algebuckina-design, tech]
 ---
 As part of volunteering for the digital outreach team at my old Church, I really wanted to improve the livestreaming quality we were producing, and turning it from an afterthought to a genuine way to enjoy a Church service from wherever you may be. Because of my background in livestreaming on Twitch and compisition of Youtube videos, I spearheaded the entire project, suggesting what equipment and software to use, and even reccomending a platfrom change from Youtube to Twitch. The changes made a huge positive impact on the Church, especially when we headed into lockdown in NSW and Church goers were able to stay connected to their weekly visit, even though it was virtual. And we were able to avoid using Zoom as it was extreamly exclusive.
 

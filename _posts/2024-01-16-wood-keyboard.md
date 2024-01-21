@@ -17,7 +17,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
   top: 1
-tags: [algebuckina design, design, tech]
+tags: [algebuckina-design, design, tech]
 ---
 My fascination with keyboards started when the backlit keyboard I’d been using for 3 years started to fall apart, I wanted something that would last. One thing came to another, and I ended up diving down the rabbit hole that is mechanical keyboards and found longevity and sustainability and mostly ignored in the entire computer peripherals space. I ended up getting a Unicomp terminal keyboard as the original keyboards from IBM still work to this day, but I had an urge to develop and sell a more sustainable mechanical keyboard.
 

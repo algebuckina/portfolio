@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: [algebuckina design, design, cars, tech]
+tags: [algebuckina-design, design, cars, tech]
 ---
 I got my Mazda MX5 a few years ago, and it came with some terrible Sony head unit. It plays CDs and connects to my old iPod but refuses to interface with my phone and the Bluetooth sound quality is terrible. Looking on the market, functionality wise, bringing an older car like mine up to modern standards cost upwards of $500, and they don’t even have a volume knob. When I saw this, I chose to take things into my own hands. The head unit I designed uses off the shelf components (when they are in stock, sorry) to make a cheaper competitor than the competition, while keeping the option for android auto compatibility.
 
