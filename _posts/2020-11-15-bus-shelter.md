@@ -3,7 +3,7 @@ layout: post
 title: Retoro Bus Shelter
 subtitle: My most successful University Project
 author: Bradley Turner
-categories: Western Sydney University
+categories: Western-Sydney-University
 banner:
   # video: https://vjs.zencdn.net/v/oceans.mp4
   # loop: true
@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: [WSU, design]
+tags: [WSU, Design]
 ---
 The Bus shelter was my most successful project at university excluding my major work. The 3rd year class on design innovation wanted us to make bus shelters more aesthetically appealing and help us develop our materials selection and sheet metal design skills.
 

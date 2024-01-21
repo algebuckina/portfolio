@@ -3,7 +3,7 @@ layout: post
 title: Widevision VR
 subtitle: A modern way of exhibiting during social distancing
 author: Bradley Turner
-categories: Western Sydney University
+categories: Western-Sydney-University
 banner:
   # video: https://vjs.zencdn.net/v/oceans.mp4
   # loop: true
