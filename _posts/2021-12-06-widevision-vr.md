@@ -19,9 +19,6 @@ banner:
   top: 1
 tags: [WSU, design, VR]
 ---
-
-## Introduction
-
 Widevision is an event held each year to showcase Western Sydney Universities Industrial Design cohort. In 2020 the exhibition was moved to a zoom meeting rather than an in-person event due to Covid. In 2021, the university proposed doing a VR exhibition that one of the students would work on for the honours work. I chose to take up this challenge.
 
 I had to teach myself everything from scratch because I had no knowledge of virtual reality at all. I started by developing 2 concepts. A VR space people could attend from anywhere, or a guided tour augmented reality headset. With lockdown restricting movement, I went with the 1st option (though I did have a working AR headset that I could play open TTD on) and begun learning SteamVRs hammer tools, using SolidWorks to create my assets and importing them into SteamVR and eventually having an environment that both myself and my supervisor were really proud of.

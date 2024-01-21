@@ -18,9 +18,6 @@ banner:
   subheading_style: "color: gold"
 tags: [algebuckina design, design, code, MTG]
 ---
-
-## Introduction
-
 I’ve been a community manager and content creator at Mod the Galaxy for many years now, and throughout my time there, I’ve always needed to tell people how to install mods, and a mod manager would fix this. So naturally I chose to write one myself. I hadn’t written software since year 9 in high school, so it took some time to get back into it, but I was able to get a WinForms project started and the UI done in a few afternoons, taking the colours from the in-game UI, and making my own custom buttons based on it too. I started working on button functionality and got stuck on trying to load and change information in the game files so the project sat on the back burner for about a year.
 
 Throughout this year, a SWGEmu staff member started hinting that I should finish work on it to get it to a functional state. This went on for a while till he said the SWGEmu project was nearing its end, and a content creator would be needed on the team once they move to a full play server and someone who made a mod manager would be looked upon favourably for this position ‘wink wink’. So I dove back into the project and, with some research, got the manager functional and released it to the public. And a few months later, I was accepted onto the SWGEmu team as an event and quest coordinator.

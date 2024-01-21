@@ -18,9 +18,6 @@ banner:
   subheading_style: "color: gold"
 tags: [algebuckina design, code]
 ---
-
-## Introduction
-
 I’d recently delved into writing HTML code for a portfolio assignment for university (they wanted us to use WordPress. I used it for about an hour and hated it so started learning HTML) and the Church I attended at the time was looking to revamp their digital presence and was asking for a focus group to be formed around that. I put my hand up and first worked on overhauling their livestreamed services which was timely as covid forced us all into lockdown, but with that project wrapped up in a few weeks, the group wanted to remake their website from the ground up and I took it upon myself to contribute a proposal to the group.
 
 My website concept was based on NodeBB, a free and open-source forum software that could have custom pages made for it. The forum aspect would make it easier for staff and community members to post information to the site, and the custom pages would let us keep a front-end website like our past one. My proposal was up against another which was just a different hosting software with an identical looking website to the old one. Everyone at the meeting wished me to work more on my design and transfer all the information on the old website over and redesign it.

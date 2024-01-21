@@ -18,5 +18,3 @@ banner:
   subheading_style: "color: gold"
 tags: [algebuckina design, tech]
 ---
-
-## Introduction
