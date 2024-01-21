@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Mechanical Wood Keyboard | Bradley Turner’s Portfolio</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Mechanical Wood Keyboard" />
+<meta name="author" content="Bradley Turner" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Introduction My fascination with keyboards started when the backlit keyboard I’d been using for 3 years started to fall apart, I wanted something that would last. One thing came to another, and I ended up diving down the rabbit hole that is mechanical keyboards and found longevity and sustainability and mostly ignored in the entire computer peripherals space. I ended up getting a Unicomp terminal keyboard as the original keyboards from IBM still work to this day, but I had an urge to develop and sell a more sustainable mechanical keyboard. I started the company, Algebuckina Design, and started working on prototypes with my newly acquired CNC router, and have been through many iterations, finding multiple tools and cut files online to try and get to a functional keyboard (as well as struggling through the teething problems of a hobby CNC router) but I’m now very close to having a few working prototypes for usability testing. Building my own keyboard Before diving into making a keyboard completely from scratch, I wanted to see what the budget mechanical keyboard market looked like and how hard it was to assemble a keyboard myself. I chose Matias Quiet Click switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stabilisers. I found soldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today. This experience did show me a few things: Don’t use alps style switches, the keycap set was really hard to come by I’d need to create internal documentation for the firmware flashing process or maybe even automate it I can’t cheap out on stabilisers, the ones I got were terrible and very rattly I prefer the feel of my Unicomp Keyboard, so anything I make for myself will need a metallic click Designing everything from scratch With my 1st hand research done, I then wanted to design an entire keyboard from scratch, PCB and all. Though I only had access to an old version of Pro Desktop from 2005 for CAD software and no idea how to design a PCB. After trying to lay everything out in pro desktop and crashing it many times, I sidelined working on the plate and case and begun work on the PCB, downloaded keiCAD and was promptly overwhelmed. I did eventually find this tool that did help with a layered design, but not knowing how to design PCBs had me at a standstill. Working with an off the self PCB With designing my own PCB not being an option, I looked back to the place I got my 1st PCB, and they had one that suited my needs. Using it, and the tool I mentioned earlier, found out the CNC router I purchased and built from BlueCarve CNC wasn’t set accurately enough to cut the plate that holds all the switches. After some research, adjustments and many plate prototypes later, I had a functional 1st prototype including some simple keycaps. This prototype was invaluable, and really highlighted the following: Keycaps will need to be a different project entirely, making this more of a keyboard case, plate and PCB design project Selling these as barebones kits might be an option as it was very easy to build the layered design The layered design is a lot easier to make, but is quite bulky and not as nice to look at, so I want to break out into 2 designs, 1 cheaper, 1 more premium I should be testing and checking my CNC router every now and then and adjust as needed Looking to Open Source While doing some research, I stumbled across this resource on github which had a bunch of open source keyboards, cases and PCBs and found that the Garbert is very similar to what I wanted to create and had an MIT license which means I could use it for commercial use. I was considering doing this, but I didn’t want to make a 60% keyboard, neither did I want a screen or knob as it might drive the more mainstream market away. I’m also way too proud to just use someone elses design. In this list, I did find a range of PCBs called Voyager which I plan to use for the final keyboard design, and means I don’t need to delve into PCB design yet. Also on the topic of open source, begun using freeCAD around this time too, which is far easier to use than a 20 year old CAD software, and it trades blows with what I am educated on, SolidWorks, so I’ll be using it from now on. Now, and looking forward PCB As of right now, my holdup is getting my hands on one of the open source PCBs. I’m currently working out how to place an order for a small quanitity of PCBs that are fully assembled, but it seems the industry tries to make it as hard as possible for people new to everything to order prototype PCBs. I am looking to get in touch with CircuitWise which is a NSW based PCB manufacturer who also does assembly, though their website is far from helpful so I am going to need to call them. After this is done I can move onto the following steps. Skew 1 Skew 1 will be based on the original concept of a layered design. It’ll be more cost effective due to the wood I can get from Koenig Machinery. The poplar panels come pre finished so I don’t need to clear coat or stain the wood which reduces production time from a few days to a few hours. Skew 2 Skew 2 is a more conventional mechanical keyboard design with a bottom case and keycap plate. The bottom case will be made with solid wood and CNC’d out, and the plate will use higher strength Plyco plywood for less flex while typing. The main par that sets the 2 skews apart is the standing staining and clear finishing step in the manufacturing process, which is why skew 2 will be priced as a premium option. Keycaps From experimentation, keycaps are going to be a lot harder than 1st thought. I will need to build custom jigs to cut them, and skew 1 (and possibly 2) keycaps will need plastic inserts which is why I want to break off this part of the mechanical keyboard project to it’s own thing because it’ll need it’s own prototyping. Kits The fact that keycaps will be another major wait for this project, I am considering releasing Skew 1 as a kit that has BYO keycaps and keyswitches. These kind of kits seem to be very popular so selling it and getting a start to cashflow should be very helpful with both subsidising prototyping and motivation to finish the keyboard." />
+<meta property="og:description" content="Introduction My fascination with keyboards started when the backlit keyboard I’d been using for 3 years started to fall apart, I wanted something that would last. One thing came to another, and I ended up diving down the rabbit hole that is mechanical keyboards and found longevity and sustainability and mostly ignored in the entire computer peripherals space. I ended up getting a Unicomp terminal keyboard as the original keyboards from IBM still work to this day, but I had an urge to develop and sell a more sustainable mechanical keyboard. I started the company, Algebuckina Design, and started working on prototypes with my newly acquired CNC router, and have been through many iterations, finding multiple tools and cut files online to try and get to a functional keyboard (as well as struggling through the teething problems of a hobby CNC router) but I’m now very close to having a few working prototypes for usability testing. Building my own keyboard Before diving into making a keyboard completely from scratch, I wanted to see what the budget mechanical keyboard market looked like and how hard it was to assemble a keyboard myself. I chose Matias Quiet Click switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stabilisers. I found soldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today. This experience did show me a few things: Don’t use alps style switches, the keycap set was really hard to come by I’d need to create internal documentation for the firmware flashing process or maybe even automate it I can’t cheap out on stabilisers, the ones I got were terrible and very rattly I prefer the feel of my Unicomp Keyboard, so anything I make for myself will need a metallic click Designing everything from scratch With my 1st hand research done, I then wanted to design an entire keyboard from scratch, PCB and all. Though I only had access to an old version of Pro Desktop from 2005 for CAD software and no idea how to design a PCB. After trying to lay everything out in pro desktop and crashing it many times, I sidelined working on the plate and case and begun work on the PCB, downloaded keiCAD and was promptly overwhelmed. I did eventually find this tool that did help with a layered design, but not knowing how to design PCBs had me at a standstill. Working with an off the self PCB With designing my own PCB not being an option, I looked back to the place I got my 1st PCB, and they had one that suited my needs. Using it, and the tool I mentioned earlier, found out the CNC router I purchased and built from BlueCarve CNC wasn’t set accurately enough to cut the plate that holds all the switches. After some research, adjustments and many plate prototypes later, I had a functional 1st prototype including some simple keycaps. This prototype was invaluable, and really highlighted the following: Keycaps will need to be a different project entirely, making this more of a keyboard case, plate and PCB design project Selling these as barebones kits might be an option as it was very easy to build the layered design The layered design is a lot easier to make, but is quite bulky and not as nice to look at, so I want to break out into 2 designs, 1 cheaper, 1 more premium I should be testing and checking my CNC router every now and then and adjust as needed Looking to Open Source While doing some research, I stumbled across this resource on github which had a bunch of open source keyboards, cases and PCBs and found that the Garbert is very similar to what I wanted to create and had an MIT license which means I could use it for commercial use. I was considering doing this, but I didn’t want to make a 60% keyboard, neither did I want a screen or knob as it might drive the more mainstream market away. I’m also way too proud to just use someone elses design. In this list, I did find a range of PCBs called Voyager which I plan to use for the final keyboard design, and means I don’t need to delve into PCB design yet. Also on the topic of open source, begun using freeCAD around this time too, which is far easier to use than a 20 year old CAD software, and it trades blows with what I am educated on, SolidWorks, so I’ll be using it from now on. Now, and looking forward PCB As of right now, my holdup is getting my hands on one of the open source PCBs. I’m currently working out how to place an order for a small quanitity of PCBs that are fully assembled, but it seems the industry tries to make it as hard as possible for people new to everything to order prototype PCBs. I am looking to get in touch with CircuitWise which is a NSW based PCB manufacturer who also does assembly, though their website is far from helpful so I am going to need to call them. After this is done I can move onto the following steps. Skew 1 Skew 1 will be based on the original concept of a layered design. It’ll be more cost effective due to the wood I can get from Koenig Machinery. The poplar panels come pre finished so I don’t need to clear coat or stain the wood which reduces production time from a few days to a few hours. Skew 2 Skew 2 is a more conventional mechanical keyboard design with a bottom case and keycap plate. The bottom case will be made with solid wood and CNC’d out, and the plate will use higher strength Plyco plywood for less flex while typing. The main par that sets the 2 skews apart is the standing staining and clear finishing step in the manufacturing process, which is why skew 2 will be priced as a premium option. Keycaps From experimentation, keycaps are going to be a lot harder than 1st thought. I will need to build custom jigs to cut them, and skew 1 (and possibly 2) keycaps will need plastic inserts which is why I want to break off this part of the mechanical keyboard project to it’s own thing because it’ll need it’s own prototyping. Kits The fact that keycaps will be another major wait for this project, I am considering releasing Skew 1 as a kit that has BYO keycaps and keyswitches. These kind of kits seem to be very popular so selling it and getting a start to cashflow should be very helpful with both subsidising prototyping and motivation to finish the keyboard." />
+<link rel="canonical" href="http://localhost:4000/algebuckina/design/2024/01/16/wood-keyboard.html" />
+<meta property="og:url" content="http://localhost:4000/algebuckina/design/2024/01/16/wood-keyboard.html" />
+<meta property="og:site_name" content="Bradley Turner’s Portfolio" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-01-16T00:00:00+11:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Mechanical Wood Keyboard" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bradley Turner"},"dateModified":"2024-01-16T00:00:00+11:00","datePublished":"2024-01-16T00:00:00+11:00","description":"Introduction My fascination with keyboards started when the backlit keyboard I’d been using for 3 years started to fall apart, I wanted something that would last. One thing came to another, and I ended up diving down the rabbit hole that is mechanical keyboards and found longevity and sustainability and mostly ignored in the entire computer peripherals space. I ended up getting a Unicomp terminal keyboard as the original keyboards from IBM still work to this day, but I had an urge to develop and sell a more sustainable mechanical keyboard. I started the company, Algebuckina Design, and started working on prototypes with my newly acquired CNC router, and have been through many iterations, finding multiple tools and cut files online to try and get to a functional keyboard (as well as struggling through the teething problems of a hobby CNC router) but I’m now very close to having a few working prototypes for usability testing. Building my own keyboard Before diving into making a keyboard completely from scratch, I wanted to see what the budget mechanical keyboard market looked like and how hard it was to assemble a keyboard myself. I chose Matias Quiet Click switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stabilisers. I found soldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today. This experience did show me a few things: Don’t use alps style switches, the keycap set was really hard to come by I’d need to create internal documentation for the firmware flashing process or maybe even automate it I can’t cheap out on stabilisers, the ones I got were terrible and very rattly I prefer the feel of my Unicomp Keyboard, so anything I make for myself will need a metallic click Designing everything from scratch With my 1st hand research done, I then wanted to design an entire keyboard from scratch, PCB and all. Though I only had access to an old version of Pro Desktop from 2005 for CAD software and no idea how to design a PCB. After trying to lay everything out in pro desktop and crashing it many times, I sidelined working on the plate and case and begun work on the PCB, downloaded keiCAD and was promptly overwhelmed. I did eventually find this tool that did help with a layered design, but not knowing how to design PCBs had me at a standstill. Working with an off the self PCB With designing my own PCB not being an option, I looked back to the place I got my 1st PCB, and they had one that suited my needs. Using it, and the tool I mentioned earlier, found out the CNC router I purchased and built from BlueCarve CNC wasn’t set accurately enough to cut the plate that holds all the switches. After some research, adjustments and many plate prototypes later, I had a functional 1st prototype including some simple keycaps. This prototype was invaluable, and really highlighted the following: Keycaps will need to be a different project entirely, making this more of a keyboard case, plate and PCB design project Selling these as barebones kits might be an option as it was very easy to build the layered design The layered design is a lot easier to make, but is quite bulky and not as nice to look at, so I want to break out into 2 designs, 1 cheaper, 1 more premium I should be testing and checking my CNC router every now and then and adjust as needed Looking to Open Source While doing some research, I stumbled across this resource on github which had a bunch of open source keyboards, cases and PCBs and found that the Garbert is very similar to what I wanted to create and had an MIT license which means I could use it for commercial use. I was considering doing this, but I didn’t want to make a 60% keyboard, neither did I want a screen or knob as it might drive the more mainstream market away. I’m also way too proud to just use someone elses design. In this list, I did find a range of PCBs called Voyager which I plan to use for the final keyboard design, and means I don’t need to delve into PCB design yet. Also on the topic of open source, begun using freeCAD around this time too, which is far easier to use than a 20 year old CAD software, and it trades blows with what I am educated on, SolidWorks, so I’ll be using it from now on. Now, and looking forward PCB As of right now, my holdup is getting my hands on one of the open source PCBs. I’m currently working out how to place an order for a small quanitity of PCBs that are fully assembled, but it seems the industry tries to make it as hard as possible for people new to everything to order prototype PCBs. I am looking to get in touch with CircuitWise which is a NSW based PCB manufacturer who also does assembly, though their website is far from helpful so I am going to need to call them. After this is done I can move onto the following steps. Skew 1 Skew 1 will be based on the original concept of a layered design. It’ll be more cost effective due to the wood I can get from Koenig Machinery. The poplar panels come pre finished so I don’t need to clear coat or stain the wood which reduces production time from a few days to a few hours. Skew 2 Skew 2 is a more conventional mechanical keyboard design with a bottom case and keycap plate. The bottom case will be made with solid wood and CNC’d out, and the plate will use higher strength Plyco plywood for less flex while typing. The main par that sets the 2 skews apart is the standing staining and clear finishing step in the manufacturing process, which is why skew 2 will be priced as a premium option. Keycaps From experimentation, keycaps are going to be a lot harder than 1st thought. I will need to build custom jigs to cut them, and skew 1 (and possibly 2) keycaps will need plastic inserts which is why I want to break off this part of the mechanical keyboard project to it’s own thing because it’ll need it’s own prototyping. Kits The fact that keycaps will be another major wait for this project, I am considering releasing Skew 1 as a kit that has BYO keycaps and keyswitches. These kind of kits seem to be very popular so selling it and getting a start to cashflow should be very helpful with both subsidising prototyping and motivation to finish the keyboard.","headline":"Mechanical Wood Keyboard","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/algebuckina/design/2024/01/16/wood-keyboard.html"},"url":"http://localhost:4000/algebuckina/design/2024/01/16/wood-keyboard.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="">
+  <link rel="canonical" href="http://localhost:4000">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Bradley Turner&apos;s Portfolio" /><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8"
+        src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"
+        async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script
+  src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script
+  src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link
+  href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css"
+  rel="stylesheet"
+/>
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner"><span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="Bradley Turner&#39;s Portfolio" src="" onerror="this.style.display='none'">
+  Bradley Turner&#39;s Portfolio
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger"><a class="page-link" href="/">HOME</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/tags.html">TAGS</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="French">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+</span></div>
+        </nav></div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    html .page-banner {
+      background: #000;
+    }
+  </style><style>html .page-banner {
+      height:  36.8vh;
+      min-height: 38vh;
+    }
+    html[data-scroll-status="top"] .page-banner {
+      height: 100vh;
+    }
+  </style><style>
+    html .page-banner .page-banner-img > *:first-child {
+      opacity: 0.618;
+    }
+
+    html[data-theme="dark"] .page-banner .page-banner-img > *:first-child {
+      opacity: 0.443724;
+    }
+  </style><style>
+    html .page-banner .page-banner-inner > *:first-child > *:nth-child(1) {
+      font-size: 4.25em; font-weight: bold; text-decoration: underline
+    }
+  </style><style>
+    html .page-banner .page-banner-inner > *:first-child > *:nth-child(2) {
+      color: gold
+    }
+  </style><section class="page-banner">
+    <div class="page-banner-img"><div style="background-image: url(https://bit.ly/3xTmdUP)"></div>
+        <img class="img-placeholder" src="https://bit.ly/3xTmdUP"></div>
+    <div class="wrapper">
+      <div class="page-banner-inner"><header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Mechanical Wood Keyboard</h1>
+  <h2 class="post-subtitle">A sustainable take on the e-waste peripheral environment</h2>
+
+  <div class="post-meta">
+    <time class="dt-published" datetime="2024-01-16T00:00:00+11:00" itemprop="datePublished"><i class="fa fa-calendar"></i> 2024-01-16
+    </time><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Bradley Turner</span>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 7 mins</span>
+  </div><div class="post-tags"><a class="post-tag" href="/tags.html#algebuckina design">#algebuckina design</a><a class="post-tag" href="/tags.html#design">#design</a><a class="post-tag" href="/tags.html#tech">#tech</a></div></header>
+</div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <h2 id="introduction">Introduction</h2>
+
+<p>My fascination with keyboards started when the backlit keyboard I’d been using for 3 years started to fall apart, I wanted something that would last. One thing came to another, and I ended up diving down the rabbit hole that is mechanical keyboards and found longevity and sustainability and mostly ignored in the entire computer peripherals space. I ended up getting a Unicomp terminal keyboard as the original keyboards from IBM still work to this day, but I had an urge to develop and sell a more sustainable mechanical keyboard.</p>
+
+<p>I started the company, Algebuckina Design, and started working on prototypes with my newly acquired CNC router, and have been through many iterations, finding multiple tools and cut files online to try and get to a functional keyboard (as well as struggling through the teething problems of a hobby CNC router) but I’m now very close to having a few working prototypes for usability testing.</p>
+
+<h2 id="building-my-own-keyboard">Building my own keyboard</h2>
+
+<p>Before diving into making a keyboard completely from scratch, I wanted to see what the budget mechanical keyboard market looked like and how hard it was to assemble a keyboard myself. I chose <a href="https://matias.ca/switches/quiet/">Matias Quiet Click</a> switches based on a the high tactile bump and quiet sound and an inexpensive PCB, case, plate and keycap set with some cheap stabilisers. I found soldering quite easy and had everything assembled within about an hour or 2, and although the documentation for the PCB firmware was a bit hit and miss, I was able to flash the firmware to have a functional 60% keyboard which I still use today.</p>
+
+<p><img src="" alt="1st keyboard build" /></p>
+
+<p>This experience did show me a few things:</p>
+<ul>
+  <li>Don’t use alps style switches, the keycap set was really hard to come by</li>
+  <li>I’d need to create internal documentation for the firmware flashing process or maybe even automate it</li>
+  <li>I can’t cheap out on stabilisers, the ones I got were terrible and very rattly</li>
+  <li>I prefer the feel of my Unicomp Keyboard, so anything I make for myself will need a metallic click</li>
+</ul>
+
+<h2 id="designing-everything-from-scratch">Designing everything from scratch</h2>
+
+<p>With my 1st hand research done, I then wanted to design an entire keyboard from scratch, PCB and all. Though I only had access to an old version of Pro Desktop from 2005 for CAD software and no idea how to design a PCB. After trying to lay everything out in pro desktop and crashing it many times, I sidelined working on the plate and case and begun work on the PCB, downloaded keiCAD and was promptly overwhelmed. I did eventually find <a href="http://builder.swillkb.com/">this tool</a> that did help with a layered design, but not knowing how to design PCBs had me at a standstill.</p>
+
+<h2 id="working-with-an-off-the-self-pcb">Working with an off the self PCB</h2>
+
+<p>With designing my own PCB not being an option, I looked back to the place I got my 1st PCB, and they had one that suited my needs. Using it, and the tool I mentioned earlier, found out the CNC router I purchased and built from <a href="https://www.bluecarve.com.au/product/bluecarve-bluey/">BlueCarve CNC</a> wasn’t set accurately enough to cut the plate that holds all the switches. After some research, adjustments and many plate prototypes later, I had a functional 1st prototype including some simple keycaps.</p>
+
+<p><img src="https://raw.githubusercontent.com/algebuckina/portfolio/main/images/Projects/960x600.jpg" alt="1st Keyboard Prototype photo" /></p>
+
+<p>This prototype was invaluable, and really highlighted the following:</p>
+
+<ul>
+  <li>Keycaps will need to be a different project entirely, making this more of a keyboard case, plate and PCB design project</li>
+  <li>Selling these as barebones kits might be an option as it was very easy to build the layered design</li>
+  <li>The layered design is a lot easier to make, but is quite bulky and not as nice to look at, so I want to break out into 2 designs, 1 cheaper, 1 more premium</li>
+  <li>I should be testing and checking my CNC router every now and then and adjust as needed</li>
+</ul>
+
+<h2 id="looking-to-open-source">Looking to Open Source</h2>
+
+<p>While doing some research, I stumbled across <a href="keyblist">this resource on github</a> which had a bunch of open source keyboards, cases and PCBs and found that the <a href="garbert">Garbert</a> is very similar to what I wanted to create and had an MIT license which means I could use it for commercial use. I was considering doing this, but I didn’t want to make a 60% keyboard, neither did I want a screen or knob as it might drive the more mainstream market away. I’m also way too proud to just use someone elses design.</p>
+
+<p><img src="https://raw.githubusercontent.com/KoBussLLC/grabert-hardware/main/doc/grabert_white_canvas_angled.jpg" alt="Garbert keyboard render" /></p>
+
+<p>In this list, I did find a range of PCBs called <a href="voyager">Voyager</a> which I plan to use for the final keyboard design, and means I don’t need to delve into PCB design <em>yet.</em></p>
+
+<p>Also on the topic of open source, begun using freeCAD around this time too, which is far easier to use than a 20 year old CAD software, and it trades blows with what I am educated on, SolidWorks, so I’ll be using it from now on.</p>
+
+<h2 id="now-and-looking-forward">Now, and looking forward</h2>
+
+<h3 id="pcb">PCB</h3>
+
+<p>As of right now, my holdup is getting my hands on one of the open source PCBs. I’m currently working out how to place an order for a small quanitity of PCBs that are fully assembled, but it seems the industry tries to make it as hard as possible for people new to everything to order prototype PCBs. I am looking to get in touch with CircuitWise which is a NSW based PCB manufacturer who also does assembly, though their website is far from helpful so I am going to need to call them. After this is done I can move onto the following steps.</p>
+
+<h3 id="skew-1">Skew 1</h3>
+
+<p>Skew 1 will be based on the original concept of a layered design. It’ll be more cost effective due to the wood I can get from Koenig Machinery. The poplar panels come pre finished so I don’t need to clear coat or stain the wood which reduces production time from a few days to a few hours.</p>
+
+<h3 id="skew-2">Skew 2</h3>
+
+<p>Skew 2 is a more conventional mechanical keyboard design with a bottom case and keycap plate. The bottom case will be made with solid wood and CNC’d out, and the plate will use higher strength Plyco plywood for less flex while typing. The main par that sets the 2 skews apart is the standing staining and clear finishing step in the manufacturing process, which is why skew 2 will be priced as a premium option.</p>
+
+<h3 id="keycaps">Keycaps</h3>
+
+<p>From experimentation, keycaps are going to be a lot harder than 1st thought. I will need to build custom jigs to cut them, and skew 1 (and possibly 2) keycaps will need plastic inserts which is why I want to break off this part of the mechanical keyboard project to it’s own thing because it’ll need it’s own prototyping.</p>
+
+<h3 id="kits">Kits</h3>
+
+<p>The fact that keycaps will be another major wait for this project, I am considering releasing Skew 1 as a kit that has BYO keycaps and keyswitches. These kind of kits seem to be very popular so selling it and getting a start to cashflow should be very helpful with both subsidising prototyping and motivation to finish the keyboard.</p>
+
+
+
+    </div>
+
+</article>
+<div class="post-nav"><a class="previous" href="/algebuckina/design/2024/01/14/custom-car-head-unit.html" title="Custom Car Head Unit">Custom Car Head Unit</a><span></span></div><div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li class="">
+          <a class="post-link"
+            href="/algebuckina/design/2021/07/08/baulkham-hills-uniting-church-livestreaming.html"
+            title="Baulkham Hills Uniting Church Livestreaming">
+            Baulkham Hills Uniting Church Livestreaming<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li><li class="">
+          <a class="post-link"
+            href="/algebuckina/design/2024/01/14/custom-car-head-unit.html"
+            title="Custom Car Head Unit">
+            Custom Car Head Unit<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li><li class="">
+          <a class="post-link"
+            href="/western/sydney/university/2021/12/06/widevision-vr.html"
+            title="Widevision VR">
+            Widevision VR<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li><li class="">
+          <a class="post-link"
+            href="/algebuckina/design/2023/03/23/swgemu-mod-manager.html"
+            title="SWGEmu Mod Manager">
+            SWGEmu Mod Manager<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+        </li></ul>
+    </div><div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner"><div>Copyright <span class="copyleft">&copy;</span> 2023-2024 Braldey Turner</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a></div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
