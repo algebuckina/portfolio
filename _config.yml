@@ -19,7 +19,7 @@ title: Bradley Turner's Portfolio
 email: bgt98@hotmail.com
 author: Braldey Turner
 description: >- # this means to ignore newlines until "baseurl:"
-  Hey, I'm a 26 year old Packaging Designer at abbe. I also run a small business, Algebuckina Design, in my spare time. I am proficient in SolidWorks, marking up drawing sheets and I'm getting pretty good at FreeCAD. I'm also a very keen model builder, always wanting to design and build something new for myself or others.
+  A 26 year old Designer who wants a challenge!
 
 copyright: "Copyright (cleft) 2023-{currentYear} {author}"
 yat:
@@ -36,7 +36,7 @@ header_pages:
 defaults:
   home:
     heading: "Bradley Turner"
-    subheading: "My Design Portfolio, there was an attempt"
+    subheading: "My Design Portfolio"
     banner: "/assets/images/banners/me1.jpg"
 
 brand_color: "#6a93fc"
@@ -44,7 +44,7 @@ brand_color: "#6a93fc"
 
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://algebuckina.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: algebuckina1
+twitter_username: algebuckina
 github_username:  algebuckina
 
 # Build settings
