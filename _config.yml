@@ -39,8 +39,8 @@ defaults:
     subheading: "My Design Portfolio"
     banner: "/assets/images/banners/home.jpeg"
 
-# banner:
-#  image: "/assets/images/banners/home.jpeg"
+banner:
+  image: "/assets/images/banners/home.jpeg"
 
 brand_color: "#6a93fc"
 
@@ -48,7 +48,7 @@ baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://algebuckina.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: algebuckina
 github_username:  algebuckina
-# favicon: "favicon.ico" # the favicon for your site
+favicon: "favicon.ico" # the favicon for your site
 
 # Build settings
 markdown: kramdown
