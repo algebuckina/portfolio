@@ -37,7 +37,7 @@ defaults:
   home:
     heading: "Bradley Turner"
     subheading: "My Design Portfolio"
-    banner: "/assets/images/banners/me1.jpg"
+    banner: "/assets/images/banners/home.jpeg"
 
 brand_color: "#6a93fc"
 # theme_color: "#6a93fc"
