@@ -3,7 +3,7 @@ layout: post
 title: Baulkham Hills Uniting Church Website
 subtitle: Continuing to bring a Church into the modern age
 author: Bradley Turner
-categories: Algebuckina-Design
+categories: Coding
 banner:
   # video: https://vjs.zencdn.net/v/oceans.mp4
   # loop: true
@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: [Algebuckina Design, Code]
+tags: [Code]
 ---
 I’d recently delved into writing HTML code for a portfolio assignment for university (they wanted us to use WordPress. I used it for about an hour and hated it so started learning HTML) and the Church I attended at the time was looking to revamp their digital presence and was asking for a focus group to be formed around that. I put my hand up and first worked on overhauling their livestreamed services which was timely as covid forced us all into lockdown, but with that project wrapped up in a few weeks, the group wanted to remake their website from the ground up and I took it upon myself to contribute a proposal to the group.
 

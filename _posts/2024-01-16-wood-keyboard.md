@@ -3,7 +3,7 @@ layout: post
 title: Mechanical Wood Keyboard
 subtitle: A sustainable take on the e-waste peripheral environment
 author: Bradley Turner
-categories: Algebuckina-Design
+categories: Passion-Projects
 banner:
   # video: https://vjs.zencdn.net/v/oceans.mp4
   # loop: true
@@ -17,11 +17,11 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
   top: 1
-tags: [Algebuckina Design, Design, Tech]
+tags: [Design, Tech]
 ---
 My fascination with keyboards started when the backlit keyboard I’d been using for 3 years started to fall apart, I wanted something that would last. One thing came to another, and I ended up diving down the rabbit hole that is mechanical keyboards and found longevity and sustainability and mostly ignored in the entire computer peripherals space. I ended up getting a Unicomp terminal keyboard as the original keyboards from IBM still work to this day, but I had an urge to develop and sell a more sustainable mechanical keyboard.
 
-I started the company, Algebuckina Design, and started working on prototypes with my newly acquired CNC router, and have been through many iterations, finding multiple tools and cut files online to try and get to a functional keyboard (as well as struggling through the teething problems of a hobby CNC router) but I’m now very close to having a few working prototypes for usability testing.
+I've been working on prototypes with my newly acquired CNC router for some time now, and have been through many iterations, finding multiple tools and cut files online to try and get to a functional keyboard (as well as struggling through the teething problems of a hobby CNC router) but I’m now very close to having a few working prototypes for usability testing.
 
 # Building my own keyboard
 
