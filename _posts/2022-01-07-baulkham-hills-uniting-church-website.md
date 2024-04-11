@@ -29,11 +29,6 @@ I have since left the Church, but I still support their website and apply any ch
 
 # Changes
 
-Before: [Homepage](before-home) / [Youth and Young Adults](before-youth)
+Before: [Homepage](http://web.archive.org/web/20210302130420/http://stmatthewsuniting.net.au/) / [Youth and Young Adults](http://web.archive.org/web/20210302141036/http://stmatthewsuniting.net.au/?page_id=66)
 
-After: [Homepage](after-home) / [Youth and Young Adults](after-youth)
-
-[before-home]: http://web.archive.org/web/20210302130420/http://stmatthewsuniting.net.au/
-[before-youth]: http://web.archive.org/web/20210302141036/http://stmatthewsuniting.net.au/?page_id=66
-[after-home]: https://stmatthewsuniting.net.au/
-[after-youth]: https://stmatthewsuniting.net.au/youth
+After: [Homepage](https://stmatthewsuniting.net.au/) / [Youth and Young Adults](https://stmatthewsuniting.net.au/youth)
